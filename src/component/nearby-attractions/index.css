@@ -1,0 +1,17 @@
+.attractions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.attractions__block {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 8px;
+}
+
+.attractions__name {
+  font-size: 16px;
+  color: black;
+}

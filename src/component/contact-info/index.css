@@ -1,0 +1,48 @@
+.contact {
+  display: grid;
+  grid-template-columns: 2fr 16fr;
+  gap: 20px;
+}
+
+.contact__block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact__text {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+}
+
+.contact__sub-block {
+  display: flex;
+  gap: 16px;
+}
+
+.contact__sub-value {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact__sub-value:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 4px;
+  border-radius: 4px;
+  background-color: #000;
+}
+
+.contact__paragraph {
+  margin-top: 30px;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
